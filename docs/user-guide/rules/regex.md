@@ -26,4 +26,4 @@ All these patterns disallow CSS identifiers that start with a digit, two hyphens
 
 You can ensure a prefix by using a negative lookahead regex.
 
-For example, to ensure all custom properties begin with `my-` use `"custom-property-pattern": "^(?!my-)"`.
+For example, to ensure all custom properties begin with `my-` use `"custom-property-pattern": "^my-"`.
